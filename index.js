@@ -23,7 +23,7 @@ const array = [
 ];
 
 
-/* const chId = (req, res, next) => {
+ const chId = (req, res, next) => {
     const { id } = req.params
     if (!array[id]) {
         return res
@@ -32,7 +32,7 @@ const array = [
     }
     return next()
 }
- */
+
 
 
 //B
@@ -81,7 +81,7 @@ server.get("/array/:id", (req, res) => {
 
 
 //E 
-/* server.put('/alunos/:index', (req, res) => {
+server.put('/alunos/:index', (req, res) => {
     const { index } = req.params
     const { dataDaAvd } = res.body
     const { disciplina } = res.body
@@ -89,7 +89,7 @@ server.get("/array/:id", (req, res) => {
     return res.json({mensage: `` })
 
 }) 
- */
+
 //F
 
 
